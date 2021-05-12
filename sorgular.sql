@@ -139,7 +139,8 @@ insert into ogrenciler(ogrenciİD,ogrenciKullaniciAd,ogrenciKullaniciPassword,og
 values
 (1,'dotnetMan','hdsjds2e3','Fatih','Işılgan',20801286816,'2001-05-13',10),
 (2,'Flutterist','hjdds321s2e3','Muhammed Fatih','Aktaş',23221312231,'1984-06-12',10),
-(3,'QuuenLover','hsds232','Enes','Karabacak',20832322321,'2001-03-31',1);
+(3,'QuuenLover','hsds232','Enes','Karabacak',20832322321,'2001-03-31',1),
+(4,'HOİ4','hsddsds23212','Murat','Işılgan',232301201321,'1967-04-02',4);
 
 
 
@@ -148,8 +149,9 @@ insert into obs(islemİD,dersNotu,notNo,dersİD,ogretmenİD,ogrenciİD)
 values
 (1,95,1,2,1,1),
 (2,75,2,2,1,1),
-(3,60,1,3,2,2);
-
+(3,60,1,3,2,2),
+(4,80,1,2,2,3),
+(5,90,2,1,2,4);
 Select * from obs o inner join dersler ders on o.dersİD=ders.dersİD 
 
 
